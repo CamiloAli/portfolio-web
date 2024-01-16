@@ -1,0 +1,67 @@
+
+/* -----------INICIO RESET------------- */
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+/* -----------FINAL RESET-------------- */
+
+
+/* ---------INICIO MENU-NAV------------ */
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+header{
+	display: flex;
+	min-height: 70px;
+	background-color: pink;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	height: 65px;
+	padding-right: 10px;
+}
+
+nav a{
+	font-weight: 600;
+	padding-right: 10px;
+}
+
+nav a:hover{
+	color: white;
+}
+
+@media (max-width: 700px){
+	header{
+		flex-direction: column;
+	}
+
+	nav{
+		padding: 10px 0px;
+	}
+}
+
+/* ---------FINAL MENU-NAV------------ */
+
+
+/* -----------INICIO MAIN------------- */
+
+
+
+/* -----------FINAL MAIN-------------- */
+
+
